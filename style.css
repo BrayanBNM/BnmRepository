@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+body,html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    font-family:'Oswald', sans-serif;
+    background-color: #000000;
+
+}
+
+.mb-2{
+    color: #fff;
+}
+.mb-2:hover,
+.mb-2:focus{
+    color: black;
+    
+}
+.h1,h2,h3,h4,h5,h6{
+    font-weight: 700;
+}
+
+/* __________________________________________ */
+
+.Container{
+    text-align: center;
+    align-content: center;
+}
+
+
+.Container h2{
+    
+    margin-bottom: 2%;
+    color: #00d9ff;
+}
+
+
+  small{
+    font-weight: 700;
+    margin-bottom: 2%;
+    color: #d9ff00;
+  }
+
+  .row{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: space-between;
+      justify-content: center;
+      margin: 0 auto;
+      max-width: 1200px;
+      
+  }
+  
+.pokemon{
+    /* background-color:#00d9ff; */
+
+    width: 300px;
+    border: 20px;
+    border-radius: 10%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+  .info{
+      
+      max-width: 90%;
+      
+      
+  }
